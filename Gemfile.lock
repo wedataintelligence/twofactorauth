@@ -22,7 +22,7 @@ GEM
       csspool-st (= 3.1.2)
       json
     csspool-st (3.1.2)
-    diffy (3.4.0)
+    diffy (3.4.2)
     dnsruby (1.61.4)
       simpleidn (~> 0.1)
     em-websocket (0.5.1)
@@ -314,7 +314,7 @@ PLATFORMS
 
 DEPENDENCIES
   diff-lcs
-  diffy
+  diffy (>= 3.4.1)
   fastimage
   github-pages
   html-proofer
@@ -323,3 +323,6 @@ DEPENDENCIES
   octopress-minify-html
   rake
   rubocop
+
+BUNDLED WITH
+   2.1.4
