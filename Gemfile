@@ -4,13 +4,13 @@ source 'https://rubygems.org'
 
 # Dependencies are bundled with the github-pages gem
 group :jekyll_plugins do
-  gem 'github-pages'
+  gem 'github-pages', '>= 224'
   gem 'octopress-minify-html'
 end
 
 group :test do
   gem 'diff-lcs', platforms: :mswin
-  gem 'diffy'
+  gem 'diffy', '>= 3.4.1'
   gem 'fastimage'
   gem 'html-proofer'
   gem 'jsonlint'
