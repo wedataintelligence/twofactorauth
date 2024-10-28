@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 # Dependencies are bundled with the github-pages gem
 group :jekyll_plugins do
-  gem 'github-pages'
+  gem 'github-pages', '>= 224'
   gem 'octopress-minify-html'
 end
 
@@ -16,5 +16,5 @@ group :test do
   gem 'jsonlint'
   gem 'kwalify'
   gem 'rake'
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.66.0'
 end
