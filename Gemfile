@@ -12,7 +12,7 @@ group :test do
   gem 'diff-lcs', platforms: :mswin
   gem 'diffy'
   gem 'fastimage'
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.19.3'
   gem 'jsonlint'
   gem 'kwalify'
   gem 'rake'
